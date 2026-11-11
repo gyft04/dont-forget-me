@@ -1,0 +1,16 @@
+{
+  "name": "dont-forget-me-api",
+  "version": "1.0.0",
+  "description": "Backend API for the Don't Forget Me checklist application",
+  "main": "src/api-game.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/api-game.js",
+    "dev": "node --watch src/api-game.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.0.0",
+    "mongoose": "^8.10.0"
+  }
+}
